@@ -67,3 +67,18 @@
 <img width="300" height="500" src="https://user-images.githubusercontent.com/30828236/54037529-baecea80-4201-11e9-85e4-4f494afc55af.png">
 </div>
 
+#### 내비게이션 타이틀 3
+
+```swift
+func initTitleImage(){
+        let image = UIImage(named: "swift_logo")
+        let imageV = UIImageView(image: image)
+        
+        self.navigationItem.titleView = imageV
+    }
+```
+<div>
+    <img width="300" height="500" src="https://user-images.githubusercontent.com/30828236/54038227-5a5ead00-4203-11e9-958e-5e7211db2e92.png">
+</div>
+
+
